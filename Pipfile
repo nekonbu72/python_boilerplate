@@ -17,3 +17,4 @@ python_version = "3.7"
 [scripts]
 build = 'pyinstaller src\\main.py --onefile'
 exe = 'dist\\main.exe'
+rd = 'rd build /s /q'
