@@ -4,6 +4,16 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "install",
+      "type": "shell",
+      "command": "pipenv install --dev",
+      "presentation": {
+        "focus": true,
+        "showReuseMessage": false
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "pyinstaller",
       "type": "shell",
       "command": "pipenv run build",
