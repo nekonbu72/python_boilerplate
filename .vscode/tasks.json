@@ -48,6 +48,8 @@
     {
       "label": "build",
       "dependsOn": ["delete spec file"],
+      "type": "shell",
+      "command": "echo build Completed!",
       "presentation": {
         "focus": true,
         "showReuseMessage": false
