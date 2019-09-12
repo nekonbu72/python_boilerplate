@@ -15,7 +15,5 @@ mypy = "*"
 python_version = "3.7"
 
 [scripts]
-build = 'pyinstaller src\\main.py --onefile'
+build = 'rd build /s /q & pyinstaller src\\main.py --onefile && rd build /s /q'
 exe = 'dist\\main.exe'
-cache_clear = 'rd build /s /q'
-git_reset = 'rd .git /s /q'
