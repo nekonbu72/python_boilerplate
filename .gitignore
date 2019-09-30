@@ -2,5 +2,7 @@
 .venv
 build
 dist
-*.spec
 src/__pycache__
+gecko.log
+downloads
+_ref/~$*
