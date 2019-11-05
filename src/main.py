@@ -1,3 +1,4 @@
-from module import add, hello
+from module import add, even, hello
 
-print(hello("John " + str(add(9))))
+li = [i for i in range(add(4))]
+print(hello("John {}".format(even(li)[2])))
