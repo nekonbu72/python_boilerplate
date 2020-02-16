@@ -6,7 +6,7 @@ def add(i: int) -> int:
 
 
 def hello(name: str) -> str:
-    return "Hello, {}!".format(name)
+    return f"Hello, {name}!"
 
 
 def even(li: List[int]) -> List[int]:
