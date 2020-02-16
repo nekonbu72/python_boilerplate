@@ -2,7 +2,7 @@ from typing import List
 
 
 def add(i: int) -> int:
-    return i + 2
+    return i + 1
 
 
 def hello(name: str) -> str:
