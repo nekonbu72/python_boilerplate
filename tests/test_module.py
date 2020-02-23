@@ -1,6 +1,6 @@
 import unittest
 
-from module import add, even, hello
+from my_project.module import add, even, hello
 
 
 class TestModule(unittest.TestCase):
